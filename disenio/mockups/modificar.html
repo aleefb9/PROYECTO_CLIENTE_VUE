@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <meta author="Alejandro Fernández Banda">
+        <title>ASTROPEDIA</title>
+    </head>
+    <body id="body2">
+        <header id="header">
+            <a href="index.html"><img id="logo" src="../../src/assets/logo.png"></a>
+            <img class="apps" src="https://www.seekpng.com/png/full/2-24646_instagram-png-blanco-instagram.png">
+            <img class="apps" src="https://toppng.com/public/uploads/thumbnail/facebook-png-blanco-icono-facebook-png-blanco-11562913982byeo7bkd2w.png">
+            <img class="apps" src="https://www.pngkit.com/png/full/21-211879_twitter-blanco-png-emblem.png">
+        </header>
+        <div id="formularioAnadir">
+            <a href="listar.html"><button class="botonCancelar">x</button></a><br/><br/>
+            <form>
+                <label>Nombre:</label><br/>
+                <input type="text">
+                <br/><br/>
+
+                <label>Diámetro:</label><br/>
+                <input type="text">
+                <br/><br/>
+
+                <label>Fecha de descubrimiento:</label><br/>
+                <input type="date">
+                <br/><br/>
+
+                <label>Imagen:</label><br/>
+                <input type="file">
+                <br/><br/>
+
+                <label>Descripción:</label><br/>
+                <textarea></textarea>
+                <br/><br/>
+
+                <label>Tipo:</label><br/>
+                <select>
+                    <option>Planeta</option>
+                    <option>Estrella</option>
+                    <option>Agujero negro</option>
+                    <option>Asteroide</option>
+                    <option>Constelación</option>
+                    <option>Galaxia</option>
+                    <option>Otros</option>
+                </select>
+                <br/><br/>
+
+                <label>Seleccione las siguientes:</label><br/>
+                <label>Gases</label><input type="checkbox"><br/>
+                <label>Rocas</label><input type="checkbox">
+                <br/><br/>
+
+                <label>¿Pertenece al Sistema Solar?</label><br/>
+                <label>Sí</label><input type="radio">
+                <label>No</label><input type="radio">
+                <br/><br/>
+                <input id="botonModificar" value="MODIFICAR" type="submit">
+            </form>
+        </div>
+    </body>
+</html>
